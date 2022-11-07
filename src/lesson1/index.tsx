@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-// import ArrayRotate from "./arrayRotate";
+import ArrayRotate from "./arrayRotate";
 // import MatchBracket from "./matchBracket";
 // import ReverseLinkList from "./reverseLinkList";
 // import BinarySearch from "./binarySearch";
@@ -15,25 +15,25 @@ const arr: number[] = [];
  * 二叉树前序遍历
  * @param node tree node
  */
-function preOrderTraverse(node: ITreeNode | null) {
-  if (node == null) return;
-  // console.log(node.value)
-  arr.push(node.value);
-  preOrderTraverse(node.left);
-  preOrderTraverse(node.right);
-}
+// function preOrderTraverse(node: ITreeNode | null) {
+//   if (node == null) return;
+//   // console.log(node.value)
+//   arr.push(node.value);
+//   preOrderTraverse(node.left);
+//   preOrderTraverse(node.right);
+// }
 
-/**
- * 二叉树中序遍历
- * @param node tree node
- */
-function inOrderTraverse(node: ITreeNode | null) {
-  if (node == null) return;
-  inOrderTraverse(node.left);
-  // console.log(node.value)
-  arr.push(node.value);
-  inOrderTraverse(node.right);
-}
+// /**
+//  * 二叉树中序遍历
+//  * @param node tree node
+//  */
+// function inOrderTraverse(node: ITreeNode | null) {
+//   if (node == null) return;
+//   inOrderTraverse(node.left);
+//   // console.log(node.value)
+//   arr.push(node.value);
+//   inOrderTraverse(node.right);
+// }
 
 /**
  * 二叉树后序遍历
