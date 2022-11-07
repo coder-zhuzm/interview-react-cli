@@ -40,9 +40,6 @@ const myAudio = memo((props: any) => {
       );
       if (val >= 100) {
         setProgress(100);
-        audio.pause();
-        setIsPlay(false);
-        clearInterval(timer);
       }
       setProgress(val);
     }, 100);
