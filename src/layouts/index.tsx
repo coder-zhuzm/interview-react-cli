@@ -15,6 +15,9 @@ export default function Layout() {
         <li>
           <Link to="/audioPage">audioPage</Link>
         </li>
+        <li>
+          <Link to="/reactQuery">reactQuery</Link>
+        </li>
       </ul>
       <Outlet />
     </div>
