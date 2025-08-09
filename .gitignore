@@ -6,3 +6,5 @@
 /src/.umi-production
 /src/.umi-test
 /dist
+.DS_Store
+pnpm-lock.yaml
